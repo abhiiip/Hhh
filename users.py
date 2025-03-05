@@ -332,7 +332,5 @@ def main():
     application.add_handler(CommandHandler("uptime", uptime))
     application.add_handler(CommandHandler("users", users))
     application.add_handler(CommandHandler("remove", remove_user))  # Add the new /remove command handler
-    application.run_polling()
-
 if __name__ == '__main__':
     main()
